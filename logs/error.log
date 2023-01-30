@@ -1,0 +1,1762 @@
+2023-01-25 16:17:45 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login?redirect=%2Fusers
+2023-01-25 16:21:09 error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /articles
+2023-01-25 17:18:42 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login
+2023-01-25 17:19:26 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login
+2023-01-25 17:20:13 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/users/login" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/users/login',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login
+2023-01-25 17:20:42 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/users/login.json" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/users/login.json',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:21:07 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php on line 526
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:134
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:21:21 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\json\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\json\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\json\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\json\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\SerializedView.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\JsonView.php:117
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:26:56 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:27:24 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:170
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:27:48 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\json\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\json\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\json\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\json\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\SerializedView.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\JsonView.php:117
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:32:31 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\json\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\json\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\json\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\json\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\SerializedView.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\JsonView.php:117
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:32:37 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\json\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\json\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\json\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\json\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\SerializedView.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\JsonView.php:117
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:32:57 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\json\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\json\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\json\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\json\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\SerializedView.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\JsonView.php:117
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:33:05 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\json\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\json\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\json\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\json\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\SerializedView.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\JsonView.php:117
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login.json
+2023-01-25 17:34:53 warning: Illegal offset type
+Request URL: /users/login
+Trace:
+Cake\Controller\Controller::set() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 96
+App\Controller\UsersController::login() C:\wamp64\www\orkut\src\Controller\UsersController.php, line 121
+Cake\Controller\Controller::invokeAction() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 172
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:34:53 warning: Unable to emit headers. Headers sent in file=C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users/login
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:34:53 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:34:53 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:34:53 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:07 warning: Illegal offset type
+Request URL: /users/login
+Trace:
+Cake\Controller\Controller::set() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 96
+App\Controller\UsersController::login() C:\wamp64\www\orkut\src\Controller\UsersController.php, line 121
+Cake\Controller\Controller::invokeAction() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 172
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:07 warning: Unable to emit headers. Headers sent in file=C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users/login
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:07 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:07 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:07 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:11 warning: Illegal offset type
+Request URL: /users/login
+Trace:
+Cake\Controller\Controller::set() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 96
+App\Controller\UsersController::login() C:\wamp64\www\orkut\src\Controller\UsersController.php, line 121
+Cake\Controller\Controller::invokeAction() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 172
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:11 warning: Unable to emit headers. Headers sent in file=C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users/login
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:11 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:11 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:35:11 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:29 warning: Illegal offset type
+Request URL: /users/login.json
+Trace:
+Cake\Controller\Controller::set() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 96
+App\Controller\UsersController::login() C:\wamp64\www\orkut\src\Controller\UsersController.php, line 122
+Cake\Controller\Controller::invokeAction() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 172
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 77
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:29 warning: Unable to emit headers. Headers sent in file=C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users/login.json
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:29 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login.json
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:29 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login.json
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:29 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login.json
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:35 warning: Illegal offset type
+Request URL: /users/login.json
+Trace:
+Cake\Controller\Controller::set() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\ViewVarsTrait.php, line 96
+App\Controller\UsersController::login() C:\wamp64\www\orkut\src\Controller\UsersController.php, line 122
+Cake\Controller\Controller::invokeAction() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 172
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 77
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:35 warning: Unable to emit headers. Headers sent in file=C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=36
+Request URL: /users/login.json
+Trace:
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:35 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login.json
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:35 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login.json
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:37:35 warning: Cannot modify header information - headers already sent by (output started at C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:36)
+Request URL: /users/login.json
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 128
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+
+2023-01-25 17:42:42 error: [Error] Call to undefined method App\Controller\UsersController::debug() in C:\wamp64\www\orkut\src\Controller\UsersController.php on line 116
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /login
+2023-01-25 17:53:43 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /login
+2023-01-25 17:54:40 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /login
+2023-01-25 17:54:59 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /login
+2023-01-25 17:55:47 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\login.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\login.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\login.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\login.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login
+2023-01-25 18:11:06 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\index.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\index.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\index.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\index.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users
+Referer URL: http://localhost/orkut/users/add
+2023-01-25 18:52:55 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /
+2023-01-25 18:52:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 348
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:318
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /login
+2023-01-25 18:53:55 error: [RuntimeException] Unable to locate an object compatible with paginate. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php on line 925
+Stack Trace:
+- C:\wamp64\www\orkut\src\Controller\UsersController.php:25
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users
+2023-01-25 19:21:38 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /
+2023-01-25 19:21:51 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /
+2023-01-25 19:22:01 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /
+2023-01-25 20:22:23 error: [Error] Object of class Authentication\Authenticator\Result could not be converted to string in C:\wamp64\www\orkut\src\Controller\UsersController.php on line 137
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/login
+2023-01-27 14:15:11 error: [Cake\Controller\Exception\InvalidParameterException] Missing passed parameter for `password` in action Users::profile(). in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 243
+Exception Attributes: array (
+  'parameter' => 'password',
+  'controller' => 'Users',
+  'action' => 'profile',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:137
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/profile?password=$2y$10$jpbt2tf0neA6700/rwyp.e6b5mYIAargbeMUAwt7V0AHqcaxXrPMS
+2023-01-27 14:15:25 error: [Cake\Controller\Exception\InvalidParameterException] Missing passed parameter for `password` in action Users::profile(). in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 243
+Exception Attributes: array (
+  'parameter' => 'password',
+  'controller' => 'Users',
+  'action' => 'profile',
+  'prefix' => NULL,
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:137
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/profile
+2023-01-27 14:23:36 error: [BadMethodCallException] Method "params()" does not exist in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 474
+Stack Trace:
+- C:\wamp64\www\orkut\src\Controller\UsersController.php:170
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/profile?password=$2y$10$jpbt2tf0neA6700/rwyp.e6b5mYIAargbeMUAwt7V0AHqcaxXrPMS
+2023-01-27 14:23:44 error: [ArgumentCountError] Too few arguments to function Cake\Http\ServerRequest::getParam(), 0 passed in C:\wamp64\www\orkut\src\Controller\UsersController.php on line 170 and at least 1 expected in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 1566
+Stack Trace:
+- C:\wamp64\www\orkut\src\Controller\UsersController.php:170
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/profile?password=$2y$10$jpbt2tf0neA6700/rwyp.e6b5mYIAargbeMUAwt7V0AHqcaxXrPMS
+2023-01-27 14:24:28 error: [BadMethodCallException] Method "query()" does not exist in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\ServerRequest.php on line 474
+Stack Trace:
+- C:\wamp64\www\orkut\src\Controller\UsersController.php:169
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:547
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/profile?password=$2y$10$jpbt2tf0neA6700/rwyp.e6b5mYIAargbeMUAwt7V0AHqcaxXrPMS
+2023-01-30 13:41:44 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 13:42:24 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 13:42:27 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 13:43:06 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:25:26 error: [Cake\Http\Exception\BadRequestException] Bad Request in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php on line 168
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:26:10 error: [Cake\Http\Exception\BadRequestException] Bad Request in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php on line 168
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:27:07 error: [Cake\Http\Exception\BadRequestException] Bad Request in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php on line 168
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:28:09 error: [Cake\Http\Exception\BadRequestException] Bad Request in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php on line 168
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:40:31 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:55:15 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:172
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+Referer URL: http://localhost:3000/
+2023-01-30 16:57:54 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+2023-01-30 16:58:03 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+2023-01-30 16:58:48 error: [Cake\View\Exception\MissingTemplateException] Template file `Users\logout.php` could not be found.
+
+The following paths were searched:
+
+- `C:\wamp64\www\orkut\templates\Users\logout.php`
+- `C:\wamp64\www\orkut\vendor\cakephp\cakephp\templates\Users\logout.php`
+ in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Users\\logout.php',
+  'paths' => 
+  array (
+    0 => 'C:\\wamp64\\www\\orkut\\templates\\',
+    1 => 'C:\\wamp64\\www\\orkut\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\View\View.php:805
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:773
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php:556
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php:320
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:124
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:186
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /users/logout
+2023-01-30 19:59:14 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /
+2023-01-30 19:59:35 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Router.php:232
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:131
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\orkut\webroot\index.php:40
+
+Request URL: /

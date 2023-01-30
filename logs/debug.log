@@ -1,0 +1,30 @@
+2023-01-25 18:53:55 notice: Calling `Cake\Datasource\ResultSetInterface` methods, such as `toList()`, on queries is deprecated. You must call `all()` first (for example, `all()->toList()`).
+C:\wamp64\www\orkut\src\Controller\UsersController.php, line: 25
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `src/Controller/UsersController.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users
+Trace:
+deprecationWarning C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Core\functions.php, line 323
+Cake\ORM\Query::_call() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php, line 557
+Cake\ORM\Query::__call() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\ORM\Query.php, line 1346
+App\Controller\UsersController::index() C:\wamp64\www\orkut\src\Controller\UsersController.php, line 25
+Cake\Controller\Controller::invokeAction() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 320
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 77
+Authentication\Middleware\AuthenticationMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() C:\wamp64\www\orkut\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Runner.php, line 58
+Cake\Http\Server::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\Server.php, line 90
+[main] C:\wamp64\www\orkut\webroot\index.php, line 40
+

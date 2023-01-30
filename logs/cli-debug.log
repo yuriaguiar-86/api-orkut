@@ -1,0 +1,36 @@
+2023-01-27 12:14:49 notice: Undefined index: REQUEST_METHOD
+Trace:
+require_once C:\wamp64\www\orkut\config\bootstrap.php, line 229
+Cake\Http\BaseApplication::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 173
+App\Application::bootstrap() C:\wamp64\www\orkut\src\Application.php, line 52
+Cake\Console\CommandRunner::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 195
+Cake\Console\CommandRunner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 133
+[main] C:\wamp64\www\orkut\bin\cake.php, line 12
+
+2023-01-27 13:08:15 notice: Undefined index: REQUEST_METHOD
+Trace:
+require_once C:\wamp64\www\orkut\config\bootstrap.php, line 229
+Cake\Http\BaseApplication::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 173
+App\Application::bootstrap() C:\wamp64\www\orkut\src\Application.php, line 52
+Cake\Console\CommandRunner::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 195
+Cake\Console\CommandRunner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 133
+[main] C:\wamp64\www\orkut\bin\cake.php, line 12
+
+2023-01-27 23:29:19 notice: Undefined index: REQUEST_METHOD
+Trace:
+require_once C:\wamp64\www\orkut\config\bootstrap.php, line 229
+Cake\Http\BaseApplication::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 173
+App\Application::bootstrap() C:\wamp64\www\orkut\src\Application.php, line 52
+Cake\Console\CommandRunner::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 195
+Cake\Console\CommandRunner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 133
+[main] C:\wamp64\www\orkut\bin\cake.php, line 12
+
+2023-01-30 11:33:23 notice: Undefined index: REQUEST_METHOD
+Trace:
+require_once C:\wamp64\www\orkut\config\bootstrap.php, line 229
+Cake\Http\BaseApplication::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 173
+App\Application::bootstrap() C:\wamp64\www\orkut\src\Application.php, line 52
+Cake\Console\CommandRunner::bootstrap() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 195
+Cake\Console\CommandRunner::run() C:\wamp64\www\orkut\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 133
+[main] C:\wamp64\www\orkut\bin\cake.php, line 12
+
